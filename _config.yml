@@ -20,6 +20,11 @@ url: 'http://condition17.github.io/blog'
 image: 'assets/images/casper.png'
 
 short_url: 'condition17.github.io/blog/'
+
+#blog logo
+logo: "assets/images/logo.jpg"
+float_logo: true
+
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
