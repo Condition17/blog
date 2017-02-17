@@ -510,6 +510,7 @@ body.nav-opened .site-wrapper {
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
+		background-attachment: fixed;
 }
 
 .main-header .inner {
