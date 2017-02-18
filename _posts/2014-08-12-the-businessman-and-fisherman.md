@@ -5,8 +5,9 @@ title: The Businessman & the fisherman
 date:   2014-08-12 10:18:00
 tags: fables fiction
 subclass: 'post tag-test tag-content'
-categories: 'casper'
+categories: 'cconache'
 navigation: True
+disqus: true
 logo: 'assets/images/ghost.png'
 ---
 

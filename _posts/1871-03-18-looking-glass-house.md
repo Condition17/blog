@@ -5,8 +5,9 @@ title: Looking-Glass house
 date:   1871-03-18 10:18:00
 tags: fiction
 subclass: 'post tag-fiction'
-categories: 'casper'
+categories: 'cconache'
 cover: 'assets/images/cover2.jpg'
+disqus: true
 navigation: True
 logo: 'assets/images/ghost.png'
 ---
