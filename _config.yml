@@ -16,10 +16,10 @@ author: 'Cristian Conache'
 nickname: cconache 
 bio: 'computer science student @unibuc, asistant mentor @devacademy'
 location: 'Bucharest, Romania'
-url: 'http://condition17.github.io/blog'
+url: 'https://condition17.github.io/blog/about/'
 image: 'assets/images/logo.jpg'
 
-short_url: 'condition17.github.io/blog/'
+short_url: 'https://condition17.github.io/about/'
 
 #blog logo
 logo: "assets/images/logo.jpg"
