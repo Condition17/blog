@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Finding The Way Home</title>
+    <title>Cristian Conache</title>
     <meta name="description" content="Cristian Conache - Young and passionate geek | Programming thoughts" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -62,7 +62,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="tag-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -70,7 +70,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/blog/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/blog/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/blog/about">About</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="/blog/feed.xml">Subscribe</a>
@@ -81,32 +81,29 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+<!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/blog/assets/images/cover1.jpg) ; opacity:1;">
-
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/blog/assets/images/cover7.jpg) ">
     <nav class="main-nav overlay clearfix">
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
     </nav>
-
     <div class="vertical">
-			
         <div class="main-header-content inner">
-		      	
-							<a class="blog-logo" href="http://condition17.github.io/blog" style="background-image: url('/blog/assets/images/logo.jpg')"></a>
-							
-	 					<h1 class="page-title">Cristian Conache</h1>
-            <h2 class="page-description">Young and passionate geek | Programming thoughts</h2>
+            <h1 class="page-title">Speeches</h1>
+            <h2 class="page-description">
+            
+                Some of the greatest words ever spoken.
+            
+            </h2>
         </div>
-    </div>	
-
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-		
+    </div>
 </header>
 
 <!-- The main content area on the homepage -->
@@ -118,95 +115,13 @@
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 2 </span>
-     
-        <a class="older-posts" href="/blog/page2/" title="Next Page">Older Posts &raquo;</a>
+    <span class="page-number"> Page 1 of 1 </span>
      
 </nav>
         
     </div>
 
     <!-- This is the post loop - each post will be output using this markup -->
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/blog/gettysburg-address">Custom article</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men... <a class="read-more" href="/blog/gettysburg-address">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/blog/assets/images/logo.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/blog/author/cconache'>Cristian Conache</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/blog/tag/fiction'>Fiction</a>
-                       
-                
-            
-            <time class="post-date" datetime="2017-02-17">17 Feb 2017</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/blog/a-full-and-comprehensive-style-test">A Full and Comprehensive Style Test</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>This is just an ipsis verbis copy of the first example running on the Ghost Demo. This shows how you can use html styling to achieve... <a class="read-more" href="/blog/a-full-and-comprehensive-style-test">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/blog/assets/images/logo.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/blog/author/cconache'>Cristian Conache</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/blog/tag/test'>Test</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/content'>Content</a>
-                       
-                
-            
-            <time class="post-date" datetime="2014-09-27">27 Sep 2014</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/blog/the-businessman-and-fisherman">The Businessman & the fisherman</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office... <a class="read-more" href="/blog/the-businessman-and-fisherman">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/blog/assets/images/logo.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/blog/author/cconache'>Cristian Conache</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/blog/tag/fables'>Fables</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/fiction'>Fiction</a>
-                       
-                
-            
-            <time class="post-date" datetime="2014-08-12">12 Aug 2014</time>
-        </footer>
-    </article>
     
     <article class="post">
         <header class="post-header">
@@ -265,9 +180,7 @@
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 2 </span>
-     
-        <a class="older-posts" href="/blog/page2/" title="Next Page">Older Posts &raquo;</a>
+    <span class="page-number"> Page 1 of 1 </span>
      
 </nav>
     
