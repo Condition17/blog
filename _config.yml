@@ -25,7 +25,7 @@ short_url: 'condition17.github.io/blog/'
 logo: "assets/images/logo.jpg"
 
 google_analytics: UA-69281367-1
-disqus: username
+disqus:  https-condition17-github-io-blog
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /blog/
 

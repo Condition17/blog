@@ -5,8 +5,9 @@ title: Down The Rabbit Hole
 date:   1865-11-26 10:18:00
 tags: fiction
 subclass: 'post tag-fiction'
-categories: 'casper'
+categories: 'cconache'
 navigation: True
+disqus: True
 logo: 'assets/images/ghost.png'
 cover: 'assets/images/cover1.jpg'
 ---
