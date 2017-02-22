@@ -5,7 +5,7 @@ title: Custom article
 date:   2017-02-17 10:18:00
 tags: fiction
 subclass: 'post tag-fiction'
-disqus: True
+disqus: False
 categories: 'conache'
 ---
 

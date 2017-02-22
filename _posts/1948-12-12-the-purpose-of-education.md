@@ -7,7 +7,7 @@ tags: speeches fiction
 subclass: 'post tag-speeches'
 categories: 'cconache'
 navigation: True
-disqus: True
+disqus: False
 logo: 'assets/images/ghost.png'
 ---
 

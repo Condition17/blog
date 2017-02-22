@@ -7,7 +7,7 @@ tags: fables fiction
 subclass: 'post tag-test tag-content'
 categories: 'cconache'
 navigation: True
-disqus: True
+disqus: False
 logo: 'assets/images/ghost.png'
 ---
 

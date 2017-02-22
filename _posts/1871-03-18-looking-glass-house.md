@@ -7,7 +7,7 @@ tags: fiction
 subclass: 'post tag-fiction'
 categories: 'cconache'
 cover: 'assets/images/cover2.jpg'
-disqus: True
+disqus: False
 navigation: True
 logo: 'assets/images/ghost.png'
 ---
