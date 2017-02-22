@@ -12,6 +12,7 @@ I'm a computer science student at Univeristy of Bucharest, Romania.<br> Also, I'
 
 I'm really passionate about progamming and technology in general.
 I like web development, but at the same time, I'm in an interesting process  trying to figure out what I like the most, because I frequently discover something new that makes me want to study and learn more about the new descovered thing.
+
 So, stay tuned to see my journey!
 
 You can follow me along my journey on:
